@@ -30,12 +30,12 @@
       {
         "label": "Ayu Light",
         "uiTheme": "vs",
-        "path": "./themes/ayu-light.json"
+        "path": "/themes/ayu-light.json"
       },
       {
         "label": "Ayu Mirage",
         "uiTheme": "vs-dark",
-        "path": "./themes/ayu-mirage.json"
+        "path": "/themes/ayu-mirage.json"
       }
     ]
   },
