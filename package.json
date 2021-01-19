@@ -7,11 +7,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SuperMaZingCoder/ayu-theme"
+    "url": "https://github.com/SuperMaZingCoder/ayu-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/SuperMaZingCoder/ayu-theme/issues",
-    "email": "supermazingcoder@gmail.com"
+    "url": "https://github.com/SuperMaZingCoder/ayu-theme/issues"
   },
   "categories": [
     "Themes"
@@ -20,7 +19,6 @@
     "theme",
     "ayu"
   ],
-  "homepage": "https://github.com/SuperMaZingCoder/ayu-theme",
   "contributes": {
     "themes": [
       {
