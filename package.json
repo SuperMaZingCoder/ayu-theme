@@ -25,19 +25,26 @@
     "ayu"
   ],
   "homepage": "https://github.com/ayu-theme/vscode-ayu",
+  "icon": "assets/logo.png",
   "contributes": {
     "themes": [
       {
         "label": "Ayu Light",
         "uiTheme": "vs",
-        "path": "./ayu-light.json"
+        "path": "./themes/ayu-light.json"
       },
       {
         "label": "Ayu Mirage",
         "uiTheme": "vs-dark",
-        "path": "./ayu-mirage.json"
+        "path": "./themes/ayu-mirage.json"
       }
     ]
+  },
+  "scripts": {
+    "build": "ts-node ./src/build.ts",
+    "package": "vsce package",
+    "start": "npm run build; npm run package",
+    "publish": "vsce publish"
   },
   "devDependencies": {
     "ayu": "^7.3.0",
