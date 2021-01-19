@@ -2,7 +2,7 @@
   "name": "ayu",
   "displayName": "Ayu",
   "description": "A simple theme with bright colors and comes in three versions — dark, light and mirage for all day long comfortable work.",
-  "version": "0.20.1",
+  "version": "0.0.1",
   "publisher": "SuperMaZingCoder",
   "license": "MIT",
   "repository": {
@@ -12,9 +12,6 @@
   "bugs": {
     "url": "https://github.com/SuperMaZingCoder/ayu-theme/issues",
     "email": "supermazingcoder@gmail.com"
-  },
-  "engines": {
-    "vscode": "^1.13.0"
   },
   "categories": [
     "Themes"
@@ -29,12 +26,12 @@
       {
         "label": "Ayu Light",
         "uiTheme": "vs",
-        "path": "/themes/ayu-light.json"
+        "path": "./themes/ayu-light.json"
       },
       {
         "label": "Ayu Mirage",
         "uiTheme": "vs-dark",
-        "path": "/themes/ayu-mirage.json"
+        "path": "./themes/ayu-mirage.json"
       }
     ]
   }
