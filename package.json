@@ -36,8 +36,8 @@
         "label": "Ayu Mirage",
         "uiTheme": "vs-dark",
         "path": "./themes/ayu-mirage.json"
-      },
-    ],
+      }
+    ]
   },
   "scripts": {
     "build": "ts-node ./src/build.ts",
