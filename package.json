@@ -20,7 +20,6 @@
     "Themes"
   ],
   "keywords": [
-    "icon-theme",
     "theme",
     "ayu"
   ],
@@ -38,17 +37,5 @@
         "path": "/themes/ayu-mirage.json"
       }
     ]
-  },
-  "scripts": {
-    "build": "ts-node ./src/build.ts",
-    "package": "vsce package",
-    "start": "npm run build; npm run package",
-    "publish": "vsce publish"
-  },
-  "devDependencies": {
-    "ayu": "^7.3.0",
-    "ts-node": "^8.10.2",
-    "typescript": "^3.9.3",
-    "vsce": "^1.75.0"
   }
 }
